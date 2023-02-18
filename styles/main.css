@@ -15,10 +15,12 @@ header img {
 
 .banner {
     display: flex;
+    align-items: center;
 }
 
 header {
     background-color: #000000;
+    flex: 1;
     color: #000000;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
@@ -27,13 +29,11 @@ header {
 
 nav {
     font-weight: bold;
-
-    text-align: left;
+    flex: 3;
 }
 
 nav a {
     text-decoration: none;
-
 }
 
 nav a:link {
@@ -50,17 +50,16 @@ nav a:hover {
 
 nav ul {
     display: flex;
+    align-items: center;
+    justify-content:space-around;
     color: #000000;
     list-style-type: none;
     font-weight: bold;
 }
 
-nav li {
-    padding-right: 80px;
-}
-
 h1 {
     text-align: center;
+    word-wrap: break-word;
     height: 32px;
     color: #ffffff;
 }
