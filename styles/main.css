@@ -1,11 +1,11 @@
 body {
-    background-color: #000000;
+    background-color:#0e1922;
     color: #000000;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
         'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0%;
-    height: 100%;
+
 }
 
 header img {
@@ -19,7 +19,6 @@ header img {
 }
 
 header {
-    background-color: #000000;
     flex: 1;
     color: #000000;
     width: 100%;
@@ -30,6 +29,7 @@ header {
 nav {
     font-weight: bold;
     flex: 3;
+    border-bottom: #FFFFFF;
 }
 
 nav a {
@@ -81,6 +81,7 @@ main {
 
 section {
     display: flex;
+    flex-wrap: wrap;
     flex:1;
     align-items: center;
     justify-items: center;
