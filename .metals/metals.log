@@ -1,0 +1,274 @@
+2023.02.27 16:04:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/vinny/Library/CloudStorage/OneDrive-Personal/Documents/web-projects/tremeloo/.metals/lsp.trace.json or /Users/vinny/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.27 16:04:58 INFO  logging to file /Users/vinny/Library/CloudStorage/OneDrive-Personal/Documents/web-projects/tremeloo/.metals/metals.log
+2023.02.27 16:04:58 INFO  Started: Metals version 0.11.10 in workspace '/Users/vinny/Library/CloudStorage/OneDrive-Personal/Documents/web-projects/tremeloo' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/vinny/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.27 16:05:02 INFO  time: initialize in 4.48s
+2023.02.27 16:05:07 WARN  Build server is not auto-connectable.
+2023.02.27 16:05:07 WARN  no build tool detected in workspace '/Users/vinny/Library/CloudStorage/OneDrive-Personal/Documents/web-projects/tremeloo'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.27 16:05:07 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:05:29 INFO  no build target found for /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala. Using presentation compiler with project's scala-library version: 3.2.1
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2023.02.27 16:05:30 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.StringIndexOutOfBoundsException: begin 57, end 90, length 75
+java.util.concurrent.CompletionException: java.lang.StringIndexOutOfBoundsException: begin 57, end 90, length 75
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 57, end 90, length 75
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4601)
+	at java.base/java.lang.String.substring(String.java:2704)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.getIndentForPos(FlatMapToForComprehensionCodeAction.scala:677)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$4(FlatMapToForComprehensionCodeAction.scala:57)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$3(FlatMapToForComprehensionCodeAction.scala:53)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$2(FlatMapToForComprehensionCodeAction.scala:52)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.codeactions.FlatMapToForComprehensionCodeAction.$anonfun$contribute$1(FlatMapToForComprehensionCodeAction.scala:51)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.27 16:05:30 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+2023.02.27 16:05:30 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+Feb 27, 2023 4:05:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2023.02.27 16:05:31 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+2023.02.27 16:05:31 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 58
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 75
+2023.02.27 16:05:31 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 79
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 84
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+2023.02.27 16:05:31 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 91
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+2023.02.27 16:05:31 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 94
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 95
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 99
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+Feb 27, 2023 4:05:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+2023.02.27 16:05:33 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.15s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.04s
+2023.02.27 16:05:34 INFO  time: code lens generation in 2.94s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.16s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.13s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.08s
+2023.02.27 16:05:34 INFO  time: code lens generation in 2.33s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.21s
+2023.02.27 16:05:34 INFO  time: code lens generation in 2.77s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.25s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.29s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.31s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.35s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.37s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.43s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.47s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.49s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.41s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.61s
+Feb 27, 2023 4:05:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 132
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.67s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.75s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.98s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.81s
+2023.02.27 16:05:34 INFO  time: code lens generation in 4.21s
+2023.02.27 16:05:34 INFO  time: code lens generation in 4.22s
+2023.02.27 16:05:34 INFO  time: code lens generation in 4.12s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.78s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.81s
+2023.02.27 16:05:34 INFO  time: code lens generation in 4.16s
+2023.02.27 16:05:34 INFO  time: code lens generation in 4.33s
+2023.02.27 16:05:34 INFO  time: code lens generation in 3.87s
+2023.02.27 16:05:34 INFO  time: code lens generation in 4.5s
+2023.02.27 16:05:34 INFO  time: code lens generation in 26s
+2023.02.27 16:05:34 INFO  time: code lens generation in 4.04s
+2023.02.27 16:05:36 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:05:39 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:05:41 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:05:44 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:05:47 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:05:50 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:05:59 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:06:05 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:06:10 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Feb 27, 2023 4:06:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.02.27 16:08:53 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:14:26 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:14:30 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:14:32 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:14:41 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:14:44 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:14:57 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:15:12 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:15:52 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:15:55 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:16:38 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:17:18 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:17:29 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:17:33 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:17:41 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:17:46 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:17:49 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:11 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:17 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:27 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:29 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:39 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:42 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:51 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:52 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:56 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:18:58 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:19:14 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:20:12 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:20:19 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:20:22 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:20:30 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:20:32 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:20:34 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:20:38 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:20:57 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:21:06 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:21:09 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:21:12 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:21:13 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:23:36 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:23:59 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:02 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:03 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:04 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:08 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:11 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:13 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:15 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:23 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:30 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:31 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:35 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:41 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:46 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:48 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:51 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:24:57 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:25:04 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:25:05 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:25:17 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:25:23 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:25:26 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+2023.02.27 16:27:02 WARN  no build target for: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+Mar 01, 2023 7:56:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.03.01 07:58:27 ERROR text document: file:///Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scalajava.nio.file.NoSuchFileException: /Users/vinny/Library/CloudStorage/OneDrive-Personal/Desktop/linearRegression.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.nio.file.Files.readAllBytes(Files.java:3288)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1315)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2770)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1793)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1791)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.03.01 07:58:34 INFO  shutting down Metals
